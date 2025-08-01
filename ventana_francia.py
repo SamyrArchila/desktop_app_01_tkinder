@@ -23,44 +23,28 @@ ventana_principal.geometry("800x500")
 ventana_principal.resizable(0, 0)
 
 # Color de fondo de la ventana 
-ventana_principal.config(bg="white")
+ventana_principal.config(bg="black")
 
 # --------------------------------
-# Frame1
+# Frame 1 
 # --------------------------------
 frame_1 = Frame(ventana_principal)
-frame_1.config(bg="red", width=780, height=480)
+frame_1.config(bg="blue", width=260, height=480)
 frame_1.place(x=10, y=10)
 
 # --------------------------------
-# Frame2
+# Frame 2 
 # --------------------------------
 frame_2 = Frame(ventana_principal)
-frame_2.config(bg="white", width=80, height=480)
-frame_2.place(x=210, y=10)
+frame_2.config(bg="white", width=260, height=480)
+frame_2.place(x=270, y=10)
 
 # --------------------------------
-# Frame3
+# Frame 3
 # --------------------------------
 frame_3 = Frame(ventana_principal)
-frame_3.config(bg="white", width=780, height=80)
-frame_3.place(x=10, y=170)
-
-# --------------------------------
-# Frame4
-frame_azul_v = Frame(ventana_principal)
-frame_azul_v.config(bg="blue", width=40, height=480)
-frame_azul_v.place(x=230, y=10)
-
-# --------------------------------
-# Frame5
-frame_azul_h = Frame(ventana_principal)
-frame_azul_h.config(bg="blue", width=780, height=40)
-frame_azul_h.place(x=10, y=190)
+frame_3.config(bg="red", width=260, height=480)
+frame_3.place(x=530, y=10)
 
 # Método principal que despliega la ventana de pantalla
 ventana_principal.mainloop()
-
-
-
-
